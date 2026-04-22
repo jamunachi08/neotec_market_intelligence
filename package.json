@@ -1,0 +1,9 @@
+{
+  "name": "neotec_market_intelligence",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Assets for Neotec Market Intelligence",
+  "scripts": {
+    "build": "echo 'No frontend bundling required yet'"
+  }
+}

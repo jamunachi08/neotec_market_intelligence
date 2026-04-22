@@ -1,0 +1,10 @@
+[
+  {
+    "doctype": "Workflow",
+    "name": "NMI Investment Proposal Approval",
+    "workflow_name": "NMI Investment Proposal Approval",
+    "document_type": "NMI Investment Proposal",
+    "is_active": 0,
+    "module": "Neotec Market Intelligence"
+  }
+]

@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-04-22 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "index_web_pages_for_search": 1,
+ "istable": 0,
+ "links": [],
+ "modified": "2026-04-22 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Neotec Market Intelligence",
+ "owner": "Administrator",
+ "quick_entry": 0,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "name": "NMI Scenario Model",
+ "field_order": [
+  "scenario_name",
+  "scenario_type",
+  "shock_value",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "scenario_name",
+   "fieldtype": "Data",
+   "label": "Scenario Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "scenario_type",
+   "fieldtype": "Select",
+   "label": "Scenario Type",
+   "options": "FX Shock\nCommodity Shock\nRate Shock\nPortfolio Drop\nCustom"
+  },
+  {
+   "fieldname": "shock_value",
+   "fieldtype": "Percent",
+   "label": "Shock Value"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  }
+ ]
+}

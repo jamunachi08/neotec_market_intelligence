@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-04-22 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "index_web_pages_for_search": 1,
+ "istable": 0,
+ "links": [],
+ "modified": "2026-04-22 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Neotec Market Intelligence",
+ "owner": "Administrator",
+ "quick_entry": 0,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "name": "NMI Investment Proposal",
+ "field_order": [
+  "company",
+  "portfolio",
+  "instrument",
+  "proposal_type",
+  "proposed_quantity",
+  "proposed_amount",
+  "justification",
+  "approval_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "portfolio",
+   "fieldtype": "Link",
+   "label": "Portfolio",
+   "options": "NMI Portfolio"
+  },
+  {
+   "fieldname": "instrument",
+   "fieldtype": "Link",
+   "label": "Instrument",
+   "options": "NMI Instrument"
+  },
+  {
+   "fieldname": "proposal_type",
+   "fieldtype": "Select",
+   "label": "Proposal Type",
+   "options": "Buy\nSell\nRebalance\nHedge"
+  },
+  {
+   "fieldname": "proposed_quantity",
+   "fieldtype": "Float",
+   "label": "Proposed Quantity"
+  },
+  {
+   "fieldname": "proposed_amount",
+   "fieldtype": "Currency",
+   "label": "Proposed Amount"
+  },
+  {
+   "fieldname": "justification",
+   "fieldtype": "Text Editor",
+   "label": "Justification"
+  },
+  {
+   "fieldname": "approval_status",
+   "fieldtype": "Select",
+   "label": "Approval Status",
+   "options": "Draft\nSubmitted\nAnalyst Reviewed\nTreasury Reviewed\nCFO Approved\nExecuted\nClosed",
+   "default": "Draft"
+  }
+ ]
+}

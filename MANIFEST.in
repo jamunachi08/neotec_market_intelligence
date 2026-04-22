@@ -1,0 +1,3 @@
+include requirements.txt
+recursive-include neotec_market_intelligence *.json *.js *.css *.html *.md *.png *.svg *.txt
+recursive-exclude neotec_market_intelligence *.pyc

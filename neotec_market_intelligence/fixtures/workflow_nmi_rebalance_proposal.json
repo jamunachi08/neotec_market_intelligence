@@ -1,0 +1,10 @@
+[
+  {
+    "doctype": "Workflow",
+    "name": "NMI Rebalance Proposal Workflow",
+    "workflow_name": "NMI Rebalance Proposal Workflow",
+    "document_type": "NMI Rebalance Proposal",
+    "is_active": 0,
+    "module": "Neotec Market Intelligence"
+  }
+]

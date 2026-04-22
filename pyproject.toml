@@ -1,0 +1,20 @@
+[project]
+name = "neotec_market_intelligence"
+authors = [
+    { name = "OpenAI", email = "support@example.com" }
+]
+description = "ERPNext-native treasury, portfolio, and market intelligence app"
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+version = {attr = "neotec_market_intelligence.__version__"}
